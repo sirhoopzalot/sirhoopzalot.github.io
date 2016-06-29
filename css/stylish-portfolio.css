@@ -20,7 +20,8 @@ body {
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
+    padding:20px;
 }
 
 .text-vertical-center h1 {
@@ -28,6 +29,8 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+
+
 }
 
 /* Custom Button Styles */
@@ -75,6 +78,7 @@ hr.small {
     margin-right: -250px;
     overflow-y: auto;
     background: #222;
+    font-family: 'Lobster', cursive;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -156,17 +160,19 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/luxury.jpg) no-repeat center center scroll;
+    background: url(../img/lucas.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
 /* About */
 
 .about {
     padding: 50px 0;
+    background-color: pink;
 }
 
 /* Services */
@@ -185,56 +191,61 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
+    color: #EC583A;
     background: url(../img/pretty.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family:'Lato', sans-serif;
 }
 
 /* Portfolio */
 
 .portfolio {
     padding: 50px 0;
+    border-right-width: 20px;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
+    border-right-width: 20px;
 }
 
 .img-portfolio {
     margin: 0 auto;
+    border-right-width: 20px;
 }
 
 .img-portfolio:hover {
     opacity: 0.8;
+    border-right-width: 20px;
 }
 
 /* Call to Action */
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #00CBE9 ;
 }
 
 .call-to-action .btn {
     margin: 10px;
+
 }
 
 /* Map */
 
-.map {
-    height: 500px;
-}
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
 
 /* Footer */
 
 footer {
     padding: 100px 0;
+    background-color: #FF5A09;
 }
+
+#portfolio {
+    background-color: #EC538A;
+}
+
