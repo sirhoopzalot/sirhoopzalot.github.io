@@ -172,13 +172,14 @@ hr.small {
 
 .about {
     padding: 50px 0;
-    background-color: pink;
+    background-color: #494E6B;
 }
 
 /* Services */
 
 .services {
     padding: 50px 0;
+    background-color: #98878F;
 }
 
 .service-item {
@@ -205,11 +206,13 @@ hr.small {
 .portfolio {
     padding: 50px 0;
     border-right-width: 20px;
+
 }
 
 .portfolio-item {
     margin-bottom: 30px;
     border-right-width: 20px;
+    border:2px solid black;
 }
 
 .img-portfolio {
@@ -226,7 +229,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
-    background-color: #00CBE9 ;
+    background-color: #cc2900 ;
 }
 
 .call-to-action .btn {
@@ -242,11 +245,11 @@ hr.small {
 
 footer {
     padding: 100px 0;
-    background-color: #FF5A09;
+    background-color: #192231;
 }
 
 #portfolio {
-    background-color: #EC538A;
+    background-color: #985E6D;
 }
 
 #message {
