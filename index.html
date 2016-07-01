@@ -31,10 +31,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
 
 </head>
 
 <body>
+
+
+
+    
+
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -48,7 +54,7 @@
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#about" onclick = $("#menu-close").click(); >My Thoughts</a>
             </li>
             <li>
                 <a href="#services" onclick = $("#menu-close").click(); >Languages</a>
@@ -66,10 +72,21 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Darrian L. Brown</h1>
-            <h3>Dedicated to Perfection</h3>
-            <br>
-            <a  class="btn btn-dark btn-lg" id="hide">More About Me</a>
+            <h3>"Dedicated to Perfection"</h3>
+            <br><br><br>    
         </div>
+        <h2 class="w3-center">Slideshow</h2>
+
+<div class="w3-content" style="max-width:400px;position:relative;">
+
+<img class="mySlides" src="img/kid.jpg" style="width:100%">
+<img class="mySlides" src="img/nextech.png" style="width:100%">
+<img class="mySlides" src="img/baseball.JPG" style="width:100%">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+
+</div>
     </header>
 
     <!-- About -->
@@ -165,6 +182,12 @@
         <div class="text-vertical-center">
             <h1>"My City, My Home, My Legacy"</h1>
         </div>
+        <div>
+        <img src = "img/arsenal.jpeg" id = "tech">
+    </div>
+    <div>
+        <img src = "img/indianapurdue.jpg" id = "indy">
+    </div>
     </aside>
 
     <!-- Portfolio -->
@@ -187,23 +210,25 @@
                        <tr> 
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/kid.jpg">
+                                <a href="http://codepen.io/sirhoopzalot/pen/pbPEaz">
+                                    <img class="img-portfolio img-responsive" src="img/calc.PNG">
                                 </a>
                             </div>
                         </div>
                        </tr>
+                        
                    </div>
                    <div class = "row">
                        <tr>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/luxury.jpg">
+                                <a href="https://pythonroom.com/file/-KFxnqO35DwCtXcz5Adx">
+                                    <img class="img-portfolio img-responsive" src="img/python-2.PNG">
                                 </a>
                             </div>
                         </div>
                         </tr>
+
                         <tr>
                         <div class="col-md-6">
                             <div class="portfolio-item">
@@ -214,8 +239,25 @@
                        </tr>
                         </div>
                     </div>
+                     <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://codepen.io/sirhoopzalot/pen/beqJNm">
+                                    <img class="img-portfolio img-responsive" src="img/matching.PNG">
+                                </a>
+                            </div>
+                       </tr>
+                        </div>
+                           <tr> 
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://codepen.io/sirhoopzalot/pen/qNrPWK">
+                                    <img class="img-portfolio img-responsive" src="img/tictactoe.PNG">
+                                </a>
+                            </div>
+                        </div>
+                       </tr>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <a id = "viewMoreItems" class="btn btn-dark">View More Items</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -229,9 +271,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>Fun Fact About Me!</h3>
+                    <p>I can't say no to nice people :) </p>
                 </div>
             </div>
         </div>
@@ -249,7 +290,7 @@
 
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                 
-
+<div id = "box"></div>
 
                     <h4><strong>Darrian L. Brown</strong>
                     </h4>
