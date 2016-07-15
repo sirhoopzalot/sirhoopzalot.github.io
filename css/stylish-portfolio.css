@@ -15,7 +15,9 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
+    overflow-x: hidden;
 }
+
 
 .text-vertical-center {
     display: table-cell;
